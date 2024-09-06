@@ -26,13 +26,11 @@ button {
   background-color: var(--accent-color);
 }
 
-/* Add styles for navigation */
-.navigation {
+.header {
   display: flex;
-  gap: 1rem;
+  justify-content: space-between;
 }
 
-.navigation a {
-  color: var(--primary-color);
-  text-decoration: none;
+.logo {
+  text-align: center;
 }
