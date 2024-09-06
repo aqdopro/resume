@@ -25,3 +25,14 @@ a {
 button {
   background-color: var(--accent-color);
 }
+
+/* Add styles for navigation */
+.navigation {
+  display: flex;
+  gap: 1rem;
+}
+
+.navigation a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
