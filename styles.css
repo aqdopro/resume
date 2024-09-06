@@ -1,0 +1,27 @@
+/* Define color variables */
+:root {
+  --primary-color: #ff4d66;
+  --secondary-color: #ffa500;
+  --accent-color: #ffff00;
+  --background-color: #202020;
+}
+
+/* Body styles */
+body {
+  background-color: var(--background-color);
+}
+
+/* Heading styles */
+h1, h2, h3 {
+  color: var(--primary-color);
+}
+
+/* Link styles */
+a {
+  color: var(--secondary-color);
+}
+
+/* Button styles */
+button {
+  background-color: var(--accent-color);
+}
