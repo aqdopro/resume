@@ -1,36 +1,79 @@
-/* Define color variables */
-:root {
-  --primary-color: #ff4d66;
-  --secondary-color: #ffa500;
-  --accent-color: #ffff00;
-  --background-color: #202020;
-}
-
-/* Body styles */
 body {
-  background-color: var(--background-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Heading styles */
-h1, h2, h3 {
-  color: var(--primary-color);
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
 }
 
-/* Link styles */
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0.5em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+}
+
+section {
+    padding: 1em;
+    margin: 1em auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 0.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
 a {
-  color: var(--secondary-color);
+    color: #0000EE; /* Standard blue color for links */
+    text-decoration: none;
 }
 
-/* Button styles */
-button {
-  background-color: var(--accent-color);
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.logo {
-  text-align: center;
+a:hover {
+    text-decoration: underline;
 }
